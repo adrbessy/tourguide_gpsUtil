@@ -27,7 +27,7 @@ public class GpsUtilController {
    * @return last user location
    */
   @GetMapping("/userLocation")
-  public VisitedLocation getLocation(@RequestParam UUID userId) {
+  public VisitedLocation getUserLocation(@RequestParam UUID userId) {
     logger.info("Get request with the endpoint 'userLocation'");
     VisitedLocation visitedLocation = gpsUtilService.getUserLocation(userId);
     return visitedLocation;
@@ -39,7 +39,7 @@ public class GpsUtilController {
    * @return a list of all attractions
    */
   @GetMapping("/attractions")
-  public List<Attraction> getAllCurrentLocations() {
+  public List<Attraction> getAttractions() {
     logger.info("Get request with the endpoint 'attractions'");
     return gpsUtilService.getAttractions();
   }
