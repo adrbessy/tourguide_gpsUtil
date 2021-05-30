@@ -1,4 +1,4 @@
-package com.tourguide;
+package com.tourguide_gpsUtil;
 
 import java.util.Locale;
 import org.springframework.boot.SpringApplication;

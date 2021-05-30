@@ -1,4 +1,4 @@
-package com.tourguide.configuration;
+package com.tourguide_gpsUtil.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

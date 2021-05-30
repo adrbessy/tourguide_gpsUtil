@@ -1,6 +1,6 @@
-package com.tourguide.controller;
+package com.tourguide_gpsUtil.controller;
 
-import com.tourguide.service.GpsUtilService;
+import com.tourguide_gpsUtil.service.GpsUtilService;
 import java.util.List;
 import java.util.UUID;
 import org.apache.logging.log4j.LogManager;

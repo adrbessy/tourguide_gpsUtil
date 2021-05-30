@@ -1,4 +1,4 @@
-package com.tourguide.service;
+package com.tourguide_gpsUtil.service;
 
 import java.util.List;
 import java.util.UUID;
